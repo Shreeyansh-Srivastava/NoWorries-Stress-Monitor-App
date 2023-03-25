@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/r1_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_gravity="left"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/r1_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="How much sleep do you get on an average these days ?"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/s1_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="right"
+                app:cardBackgroundColor="@color/teal_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/s1_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="Hello World"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/r2_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_gravity="left"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/r2_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="Did official phone calls made you feel anxious these days ?"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/s2_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="right"
+                app:cardBackgroundColor="@color/teal_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/s2_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="Hello World"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/r3_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_gravity="left"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/r3_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="How many hours of aerobic exercises do you perform in a day ?"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/s3_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="right"
+                app:cardBackgroundColor="@color/teal_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/s3_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="Hello World"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/r4_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_gravity="left"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/r4_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="Did you enjoyed your favourite musics this week ?"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/s4_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="right"
+                app:cardBackgroundColor="@color/teal_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/s4_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="Hello World"
+                    />
+            </com.google.android.material.card.MaterialCardView><com.google.android.material.card.MaterialCardView
+            android:id="@+id/r5_card"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:elevation="16dp"
+            app:cardCornerRadius="16dp"
+            android:layout_gravity="left"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardElevation="500dp">
+
+            <TextView
+                android:id="@+id/r5_text"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:text="Did you stayed awake late night for work this week ?"
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/s5_card"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:elevation="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="right"
+                app:cardBackgroundColor="@color/teal_200"
+                app:cardElevation="500dp">
+
+                <TextView
+                    android:id="@+id/s5_text"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="Hello World"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:id="@+id/returnMainActivity"
+                android:layout_gravity="center"
+                android:elevation="500dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                app:cornerRadius="40dp"
+                android:text="Test Finished, Check your Stress level"
+                android:backgroundTint="@color/green"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Answer Here...."
+            android:background="@color/white"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            app:cornerRadius="25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            android:background="@color/darkgreen"
+            android:elevation="500dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

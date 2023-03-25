@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpashscreenActivity">
+
+    <Button
+        android:id="@+id/buttonaboutnmhp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/buttonaboutlllf"
+        android:text="About NMHP"
+        android:layout_marginBottom="100dp"
+        app:cornerRadius="100dp"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonaboutlllf"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:text="About Mental Health Programmes"
+        app:cornerRadius="100dp"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonforyt"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/buttonaboutlllf"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:text="Youtube/KIRAN"
+        app:cornerRadius="100dp"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="20sp"/>
+</RelativeLayout>
